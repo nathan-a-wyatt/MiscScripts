@@ -8,6 +8,7 @@ TMPDIR=/local/scratch/$SLURM_JOB_USER/$SLURM_JOB_ID
 
 # Always good practice to reset environment when you start
  module purge
+ module load perl
 
  # start staging data to the job temporary directory in $TMPDIR
  MYDIR=`pwd`
